@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receber PIX</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PAGUE COM</h1>
+    <img src="https://i.imgur.com/FlfQowF.jpg" alt="QR Code do PIX">
+    <p>Chave PIX: <b>(11) 96396-0970</b></p>
+    <p>Nome: <b>Aurélia Alves de Sousa</b></p>
+    <p>Tipo de Chave: <b>Telefone</b></p>
+    <p>Código da transferência: <b>PRESENTEDOSNOIVOS</b></p>
+    <textarea id="codigoPix" readonly>
+00020126360014BR.GOV.BCB.PIX0114+55119639609705204000053039865802BR5922Aurelia Alves de Sousa6009SAO PAULO62140510OpcBFgq6oT63042283
+    </textarea>
+    <button id="copiar">Copiar Código do PIX</button>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
